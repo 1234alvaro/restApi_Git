@@ -19,7 +19,7 @@ mongoose.connect(
         useNewUrlParser: true,
         useUnifiedTopology: true 
     },
-    () => {console.log('connected to db')}
+    () => {console.log('Conectado ao servidor no MongoDB!')}
 );
 
 
